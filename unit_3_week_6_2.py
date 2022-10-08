@@ -23,7 +23,6 @@ print('Retrieved:', len(data), 'characters')
 
 try:
     js = json.loads(data)
-    #print(data)
 except:
     print('error')
 
